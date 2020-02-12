@@ -8,6 +8,9 @@ void Introduction::procedure( ) {
 	Task::create< Mouse >( );
 	Task::create< Drawer >( );
 
+	//REGISTにシーンを追加していく
 	REGIST( SceneController );
+
+	//スタートしたいシーンを入力
 	start( "SceneController" );
 }
