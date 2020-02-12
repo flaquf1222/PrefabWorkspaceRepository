@@ -8,6 +8,6 @@ void Introduction::procedure( ) {
 	Task::create< Mouse >( );
 	Task::create< Drawer >( );
 
-	REGIST( Controller );
-	start( "Controller" );
+	REGIST( SceneController );
+	start( "SceneController" );
 }
